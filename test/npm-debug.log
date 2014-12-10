@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/JAY/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/JAY/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dave' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/JAY/Documents/sites/sandbox/nodeApp',
+5 verbose install   [ 'express', 'jade' ] ]
+6 info preinstall application-name@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping express@3.4.8 /Users/JAY/Documents/sites/sandbox/nodeApp
+9 verbose already installed skipping jade@* /Users/JAY/Documents/sites/sandbox/nodeApp
+10 silly resolved []
+11 info build /Users/JAY/Documents/sites/sandbox/nodeApp
+12 verbose linkStuff [ false, false, false, '/Users/JAY/Documents/sites/sandbox' ]
+13 info linkStuff application-name@0.0.1
+14 verbose linkBins application-name@0.0.1
+15 verbose linkMans application-name@0.0.1
+16 verbose rebuildBundles application-name@0.0.1
+17 verbose rebuildBundles [ '.bin', 'express', 'jade', 'mocha' ]
+18 verbose rebuild bundle /Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/mocha
+19 info build /Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/mocha
+20 info preinstall mocha@2.0.1
+21 verbose linkStuff [ false,
+21 verbose linkStuff   false,
+21 verbose linkStuff   false,
+21 verbose linkStuff   '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules' ]
+22 info linkStuff mocha@2.0.1
+23 verbose linkBins mocha@2.0.1
+24 verbose link bins [ { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+24 verbose link bins   '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin',
+24 verbose link bins   false ]
+25 verbose linkMans mocha@2.0.1
+26 verbose rebuildBundles mocha@2.0.1
+27 verbose rebuildBundles [ '.bin',
+27 verbose rebuildBundles   'commander',
+27 verbose rebuildBundles   'debug',
+27 verbose rebuildBundles   'diff',
+27 verbose rebuildBundles   'escape-string-regexp',
+27 verbose rebuildBundles   'glob',
+27 verbose rebuildBundles   'growl',
+27 verbose rebuildBundles   'jade',
+27 verbose rebuildBundles   'mkdirp' ]
+28 error Error: EACCES, unlink '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin/mocha'
+28 error  { [Error: EACCES, unlink '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin/mocha']
+28 error   errno: 3,
+28 error   code: 'EACCES',
+28 error   path: '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin/mocha' }
+29 error Please try running this command again as root/Administrator.
+30 error System Darwin 14.0.0
+31 error command "/Users/JAY/.nvm/v0.10.33/bin/node" "/Users/JAY/.nvm/v0.10.33/bin/npm" "install" "--save-dave"
+32 error cwd /Users/JAY/Documents/sites/sandbox/nodeApp/test
+33 error node -v v0.10.33
+34 error npm -v 1.4.28
+35 error path /Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin/mocha
+36 error code EACCES
+37 error errno 3
+38 error stack Error: EACCES, unlink '/Users/JAY/Documents/sites/sandbox/nodeApp/node_modules/.bin/mocha'
+39 verbose exit [ 3, true ]

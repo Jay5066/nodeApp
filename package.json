@@ -1,0 +1,23 @@
+{
+  "name": "airline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bin":"./server.js",
+  "dependencies": {
+    "connect-mongo": "^0.4.1",
+    "express": "3.4.8",
+    "jade": "*",
+    "mongoose": "^3.8.19",
+    "optimist": "^0.6.1",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "supertest": "^0.15.0"
+  }
+}
